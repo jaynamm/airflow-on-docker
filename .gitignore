@@ -1,5 +1,5 @@
-./logs
-./scheduler
-./condig
-./plugins
+logs/
+scheduler/
+condig/
+plugins/
 .env
