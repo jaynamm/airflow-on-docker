@@ -2,4 +2,5 @@ logs/
 scheduler/
 condig/
 plugins/
+dags/__pycache__/
 .env
