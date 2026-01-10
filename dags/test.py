@@ -25,9 +25,9 @@ with DAG(
     tags=["example"],
 ) as dag:
     spark_test = SparkSubmitOperator(
-        task_id = "spakr_test",
+        task_id = "spark_test",
         conn_id = "spark_default",
-        application="/Users/jhnam/workspace/airflow-on-docker/dags/scripts/test.py",
+        application="/opt/airflow/dags/scripts/test.py",
     )
     
     spark_test
